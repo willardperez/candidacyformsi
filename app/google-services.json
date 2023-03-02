@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969769838370",
+    "firebase_url": "https://candidacyform-default-rtdb.firebaseio.com",
+    "project_id": "candidacyform",
+    "storage_bucket": "candidacyform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969769838370:android:b792db0b1769a2e7e0677b",
+        "android_client_info": {
+          "package_name": "com.example.candidacyform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969769838370-25o96kadvjcnv2st099jj3hff80vc3k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChnOEeuf0XWrdAwdKkXRuAw5gT6dD9du0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969769838370-25o96kadvjcnv2st099jj3hff80vc3k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

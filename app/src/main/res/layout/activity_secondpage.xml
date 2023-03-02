@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Secondpage">
+
+
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELECTIVE POSITION FOR 2023:"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/director"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="DIRECTOR"/>
+
+        <RadioButton
+            android:id="@+id/audit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="AUDIT COMMITTEE" />
+
+        <RadioButton android:id="@+id/electiob"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ELECTION COMMITTEE"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are your plans/visions for OCCC in the next 1-2 years?"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Your answer" />
+
+    <TextView
+        android:id="@+id/textView207"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By checking the box below, I  I hereby declare my candidacy for the March 2023 elections, and also state and aver that: "
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
+
+</LinearLayout>
